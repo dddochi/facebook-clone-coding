@@ -15,7 +15,7 @@
     position:absolute;
     top:300px;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:700px){
     #only-mobile{
         display: none;
     }
