@@ -3,6 +3,7 @@
 @import "component/nav.css";
 @import "component/story.css";
 @import "component/content-bar.css";
+@import "component/only-mobile.css";
 
 /*screens*/
 @import "screen/first.css";
