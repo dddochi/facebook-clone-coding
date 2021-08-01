@@ -49,7 +49,7 @@ input{
     animation:fadein 1.5s linear;
 }
 
-@keyframes imgMoving{
+@keyframes iconMoving{
     0%{
         transform:none;
     }
@@ -62,7 +62,7 @@ input{
     }
 }
 i:hover{
-    animation: imgMoving 3s ease-in-out;
+    animation: iconMoving 3s ease-in-out;
 }
 
 @keyframes imgMoving{
