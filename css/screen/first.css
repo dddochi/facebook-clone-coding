@@ -1,5 +1,46 @@
+.first-header{
+    position: fixed;
+    top: 0;
+    width:100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 15px 10px 0 10px;
+    z-index: 10;
+    background-color: white;
+}
+.first-header__column{
+    width:50%;
+}
+.first-header__column h1{
+    font-size:35px;
+    font-weight: 600;
+    color:var(--blue);
+}
+.first-header__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+}
+.first-header__column span{
+    margin-left:20px;
+    background-color: rgba(0,0,0,0.1);
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-header__column span i{
+    font-size: 22px;
+}
 #first-house .nav__link i{
     color: var(--blue);
+}
+.nav--first{
+    top:0;
+    padding-top: 50px;
+
 }
 .first-now{
     position:fixed;

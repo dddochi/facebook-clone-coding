@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Facebook clone coding page">
+    <meta proprty="og:title" content="Facebook">
+    <meta property="og:url" content="https://dddochi.github.io/facebook-clone-coding/">
+    <meta property="og:type" content="website" />
+    <meta property="og:image"
+        content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM6QELLbDi22TcrphBEunY5nKn9giuOIryCA&usqp=CAU" />
+    <meta property="og:site_name" content="Facebook" />
+    <meta property="og:description" content="Facebook clone page">
+    <title>Facebook</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a href="index.html" class="nav__link"><i class="fas fa-house-user"></i></a>
+            </li>
+            <li class="nav__btn" id="first-house"><a href="friend.html" class="nav__link"><i
+                        class="fas fa-user-friends"></i></a></li>
+            <li class="nav__btn"><a href="group.html" class="nav__link"><i class="fas fa-users"></i></a></li>
+            <li class="nav__btn"><a href="video.html" class="nav__link"><i class="fab fa-youtube"></i></a></li>
+            <li class="nav__btn"><a href="alert.html" class="nav__link"><i class="far fa-bell"></i></a></li>
+            <li class="nav__btn"><a href="manu.html" class="nav__link"><i class="fas fa-bars"></i></a></li>
+        </ul>
+    </nav>
+    <main class="side-space-screen">
+    <header class="header">
+        <div class="header__column">
+            <h1>친구</h1>
+        </div>
+        <div class="header__column">
+            <span><i class="fas fa-search"></i></span>
+        </div>
+
+    </header>
+    <section class="freind-request">
+        <div class="inform-bar">
+            <div class="inform-bar__column">
+                친구 요청 <span>1</span>
+            </div>
+            <div class="inform-bar__column">
+                모두보기
+            </div>
+        </div>
+        <div class="user-profile">
+            <img class="user-profile__img" src="img/pink.JPG">
+            <div class="user-profile__text">
+                <div class="user-profile__text__name">
+                    <span>비나</span>
+                    <span>1분</span>
+                </div>
+                <div class="user-profile__text__btn">
+                    <input type="submit" value="수락"><input type="submit" value="삭제">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="friend-recommand">
+        <div class="inform-bar">
+            <div class="inform-bar__column">
+                알 수도 있는 사람
+            </div>
+            <div class="inform-bar__column"></div>
+        </div>
+        <div class="user-profile">
+            <img class="user-profile__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEUJViM54xXt8NerYo5VRta7FF_EzEFl0thw&usqp=CAU">
+            <div class="user-profile__text">
+                <div class="user-profile__text__name user-profile__text__name-recommand">
+                    <span>캣</span>
+                    <div>
+                        <img src="img/capture1.PNG" class="user-profile__name__small-profile"/>
+                        <img src="img/capture2.PNG" class="user-profile__name__small-profile"/>
+                        <span>함께 하는 친구 52명</span>
+                    </div>
+                </div>
+                <div class="user-profile__text__btn">
+                    <input type="submit" value="친구 추가"><input type="submit" value="삭제">
+                </div>
+            </div>
+        </div>
+        <div class="user-profile">
+            <img class="user-profile__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-xmCoj8pcGlGlFtHHpRBW8zHMwjGzCL6Mbw&usqp=CAU">
+            <div class="user-profile__text">
+                <div class="user-profile__text__name user-profile__text__name-recommand">
+                    <span>김세정</span>
+                    <div>
+                        <img src="img/capture1.PNG" class="user-profile__name__small-profile"/>
+                        <img src="img/capture2.PNG" class="user-profile__name__small-profile"/>
+                        <span>함께 하는 친구 106명</span>
+                    </div>
+                </div>
+                <div class="user-profile__text__btn">
+                    <input type="submit" value="친구 추가"><input type="submit" value="삭제">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <div id="only-mobile">
+        <span>Your screen is too big</span>
+    </div>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

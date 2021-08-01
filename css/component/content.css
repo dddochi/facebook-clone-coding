@@ -1,6 +1,6 @@
 .content{
     background-color: white;
-    border-top: 10px solid var(--light-grey);
+    border-bottom: 10px solid var(--light-grey);
 }
 .content-bar{
     width:100vw;
@@ -33,6 +33,8 @@
 }
 .content-bar__column__text span{
     padding-bottom: 5px;
+    font-size: 13.5px;
+    font-weight: bold;
 }
 .content-bar__column__text div{
     font-size:12px;
@@ -86,4 +88,11 @@
 .content-communication__column span{
     font-size: 12px;
     
+}
+.content-bar__column .fa-times{
+    margin-left: 15px;
+}
+.hashtag{
+    text-decoration: none;
+    font-size: 13px;
 }

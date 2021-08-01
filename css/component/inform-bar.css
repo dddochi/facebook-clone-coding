@@ -1,0 +1,21 @@
+.inform-bar{
+    display: flex;
+    padding:5px 0;
+}
+.inform-bar__column{
+    width:50%;
+}
+.inform-bar__column:first-child{
+    font-size: 20px;
+    font-weight: 600;
+}
+.inform-bar__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color:var(--blue);
+    font-size:15px;
+}
+.inform-bar__column span{
+    color:red;
+}

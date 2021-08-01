@@ -1,0 +1,8 @@
+.content-info-video h6{
+    font-size:10.3px;
+}
+.semi-menu__column-video:first-child{
+    background-color: rgb(202, 233, 245);
+    border-radius: 20px;
+    color:var(--blue);
+}

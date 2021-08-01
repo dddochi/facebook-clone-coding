@@ -1,0 +1,15 @@
+#first-house .nav__link i{
+    color: var(--blue);
+}
+.freind-request{
+    padding:10px 0px;
+    border-top: 1px solid var(--light-grey);
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.friend-recommand{
+    padding: 10px 0;
+}
+.user-profile__text__name-recommand{
+    display: block;
+}

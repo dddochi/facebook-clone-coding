@@ -1,21 +1,15 @@
 .header{
-    position: fixed;
-    top: 0;
-    width:100%;
-    box-sizing: border-box;
     display: flex;
     align-items: center;
-    padding: 15px 20px 0 20px;
-    z-index: 10;
-    background-color: white;
+    padding: 70px 0 10px 0;
+    
 }
 .header__column{
     width:50%;
 }
 .header__column h1{
-    font-size:35px;
+    font-size:20px;
     font-weight: 600;
-    color:var(--blue);
 }
 .header__column:last-child{
     display: flex;
@@ -23,9 +17,9 @@
 }
 .header__column span{
     margin-left:20px;
-    background-color: rgba(0,0,0,0.1);
-    width:35px;
-    height:35px;
+    background-color: var(--super-grey);
+    width:38px;
+    height:38px;
     border-radius: 50%;
     display: flex;
     justify-content: center;

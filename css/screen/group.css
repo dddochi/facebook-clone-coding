@@ -1,0 +1,20 @@
+.semi-menu-group{
+    justify-content: left ;
+}
+.semi-menu__column-group{
+    background-color: var(--super-grey);
+    border-radius: 20px;
+    color:black;
+}
+.story-group{
+    border-top: 0;
+    height:140px;
+    padding-left: 7px;
+}
+.story__big-img__group{
+    width: 130px;
+    height: 130px;
+}
+.semi-menu__column-group .semi-menu__link i{
+    margin-right:5px;
+}
