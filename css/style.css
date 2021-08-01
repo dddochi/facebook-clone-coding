@@ -31,3 +31,48 @@ input{
     padding-left: 10px;
     padding-right:10px;
 }
+@keyframes fadein{
+    from{
+        transform: translateY(30px);
+        opacity:0;
+    }
+    to{
+        transform: none;
+        opacity:1;
+    }
+}
+.content,
+.alert-main,
+.freind-request,
+.friend-recommand,
+.article{
+    animation:fadein 1.5s linear;
+}
+
+@keyframes imgMoving{
+    0%{
+        transform:none;
+    }
+    50%{
+        transform: scale(1.3,1.3);
+        color:dodgerblue;
+    }
+    100%{
+        transform:none;
+    }
+}
+i:hover{
+    animation: imgMoving 3s ease-in-out;
+}
+
+@keyframes imgMoving{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+img:hover{
+    animation: imgMoving 2.5s linear infinite;
+}
