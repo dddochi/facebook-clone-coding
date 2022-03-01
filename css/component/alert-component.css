@@ -16,7 +16,7 @@
 .alert-component .alert-component__message{
     position:relative;
     top:30px;
-    right:20px;
+    right:3%;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -42,11 +42,13 @@ input{
     }
 }
 .content,
-.alert-main,
 .freind-request,
 .friend-recommand,
 .article{
-    animation:fadein 1.5s linear;
+    animation:fadein 1s linear;
+}
+.alert-main{
+    animation:fadein 0.7s linear;
 }
 
 @keyframes iconMoving{
@@ -63,16 +65,4 @@ input{
 }
 i:hover{
     animation: iconMoving 3s ease-in-out;
-}
-
-@keyframes imgMoving{
-    from{
-        transform: none;
-    }
-    to{
-        transform: rotateY(360deg);
-    }
-}
-img:hover{
-    animation: imgMoving 2.5s linear infinite;
 }
